@@ -1,0 +1,26 @@
+{
+  "name": "huntingtownweather",
+  "version": "1.0.0",
+  "description": "Weather bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddixon18/HuntingtownWeather.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Dane Dixon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddixon18/HuntingtownWeather/issues"
+  },
+  "homepage": "https://github.com/ddixon18/HuntingtownWeather#readme",
+  "dependencies": {
+    "twit": "^2.2.11",
+    "weather-js": "^2.0.0"
+  }
+}
