@@ -18,5 +18,5 @@ var tweetCurrentWeather = function() {
   });
 }
 
-setInterval(tweetCurrentWeather, 14400000);
-//tweetCurrentWeather();
+//setInterval(tweetCurrentWeather, 14400000);
+tweetCurrentWeather();
