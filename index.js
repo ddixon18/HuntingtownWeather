@@ -11,12 +11,12 @@ var tweetCurrentWeather = function() {
       console.log(err);
     curr = result[0].current.temperature;
     skytxt = result[0].current.skytext;
-    var str = "It is " + curr + " degrees Fahrenheit and " + skytxt + " in Hungtingtown, MD";
+    var str = "It is currently " + curr + " degrees Fahrenheit and " + skytxt + " in Hungtingtown, MD";
     t.post('statuses/update', { status: str }, function(err, data, response) {
       console.log('Tweeted!');
     })
   });
 }
 
-//setInterval(tweetCurrentWeather, 14400000);
-tweetCurrentWeather();
+setInterval(tweetCurrentWeather, 14400000);
+//tweetCurrentWeather();
